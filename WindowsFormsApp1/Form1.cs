@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (PdfDocument document = PdfDocument.Open("C:\\Applications\\fapiao.pdf"))
+            using (PdfDocument document = PdfDocument.Open("C:\\Applications\\Fapiao.pdf"))
             {
                 Page firstPage = document.GetPages().FirstOrDefault();
                 // 处理二维码
